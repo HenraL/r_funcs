@@ -5,39 +5,39 @@
 ## abc
 ##
 
-SRC	=	my_compute_power_rec.c	\
-		my_compute_square_root.c	\
-		my_find_prime_sup.c	\
-		my_getnbr.c	\
-		my_isneg.c	\
-		my_is_prime.c	\
-		my_putchar.c	\
-		my_put_nbr.c	\
-		my_putstr.c	\
-		my_revstr.c	\
-		my_showmem.c	\
-		my_showstr.c	\
-		my_sort_int_array.c	\
-		my_strcapitalize.c	\
-		my_strcat.c	\
-		my_strcmp.c	\
-		my_strcpy.c	\
-		my_str_isalpha.c	\
-		my_str_islower.c	\
-		my_str_isnum.c	\
-		my_str_isprintable.c	\
-		my_str_isupper.c	\
-		my_strlen.c	\
-		my_strlowcase.c \
-		my_strncat.c	\
-		my_strncmp.c	\
-		my_strncpy.c	\
-		my_strstr.c	\
-		my_strupcase.c	\
-		my_swap.c
+SRC	=	pv_my_compute_power_rec.c	\
+		pv_my_compute_square_root.c	\
+		pv_my_find_prime_sup.c	\
+		pv_my_getnbr.c	\
+		pv_my_isneg.c	\
+		pv_my_is_prime.c	\
+		pv_my_putchar.c	\
+		pv_my_put_nbr.c	\
+		pv_my_putstr.c	\
+		pv_my_revstr.c	\
+		pv_my_showmem.c	\
+		pv_my_showstr.c	\
+		pv_my_sort_int_array.c	\
+		pv_my_strcapitalize.c	\
+		pv_my_strcat.c	\
+		pv_my_strcmp.c	\
+		pv_my_strcpy.c	\
+		pv_my_str_isalpha.c	\
+		pv_my_str_islower.c	\
+		pv_my_str_isnum.c	\
+		pv_my_str_isprintable.c	\
+		pv_my_str_isupper.c	\
+		pv_my_strlen.c	\
+		pv_my_strlowcase.c \
+		pv_my_strncat.c	\
+		pv_my_strncmp.c	\
+		pv_my_strncpy.c	\
+		pv_my_strstr.c	\
+		pv_my_strupcase.c	\
+		pv_my_swap.c
 OBJ	=	$(SRC:.c=.o)
 
-NAME	=	libmy.a
+NAME	=	libmypv.a
 all:	$(NAME)
 $(NAME):	$(OBJ)
 	gcc -c  $(SRC)
