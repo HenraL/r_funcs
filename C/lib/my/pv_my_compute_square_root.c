@@ -5,7 +5,7 @@
 ** abc
 */
 
-int my_compute_square_root(int nb)
+int pv_my_compute_square_root(int nb)
 {
     int i = 0;
     if (nb < 0 || nb == 0) {

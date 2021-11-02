@@ -5,7 +5,7 @@
 ** abc
 */
 
-int my_compute_power_rec(int nb, int p)
+int pv_my_compute_power_rec(int nb, int p)
 {
     if (p < 0 ) {
         return 0;

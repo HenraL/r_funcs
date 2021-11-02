@@ -5,11 +5,14 @@
 ## abc
 ##
 # functions that do not produce a visual output
+from recoded import recoded
+
 class root:
     def __init__(self):
         self.a="hidden_processes needs to be linked to the main self class"
 
 class hidden_processes(root):
+    """ This class contains all the processes that happen in the background and do not output anything on the terminal."""
     def convert_time(self, nb, wtype="s"):
         if wtype.lower() == "ms":
             total = [nb, 42]
@@ -42,3 +45,10 @@ class hidden_processes(root):
             while i < time[0]:
                 i += 1
             return 42
+
+    def my_len(string):
+        length = 0
+        for i in string:
+            length += 1
+        return length
+    
