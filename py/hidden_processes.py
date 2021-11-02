@@ -51,4 +51,3 @@ class hidden_processes(root):
         for i in string:
             length += 1
         return length
-    
