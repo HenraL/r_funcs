@@ -1,4 +1,4 @@
-# r_funcs
+# rrfun
 This is a creation of my own that will contain a certain amount of amusing functionnalities.
 I am having fun trying to bring forward this program to you in a few different langages that are:
 - c
